@@ -38,6 +38,7 @@ h3 {
 
 h4 {
   font-size: 16px;
+  color: #fff;
 }
 
 a {
@@ -170,15 +171,15 @@ h1 {
 }
 
 .imagen1 {
-  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.40) 0%, rgba(255, 255, 255, 0.90) 100%), url("../images/landing1.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(255, 255, 255, 0.75) 50%), url("../images/landing1.jpg");
 }
 
 .imagen2 {
-  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.40) 0%, rgba(255, 255, 255, 0.90) 100%), url("../images/landing2.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(255, 255, 255, 0.75) 50%), url("../images/landing2.jpg");
 }
 
 .imagen3 {
-  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.40) 0%, rgba(255, 255, 255, 0.90) 100%), url("../images/landing3.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(255, 255, 255, 0.75) 50%), url("../images/landing3.jpg");
 }
 
 
@@ -263,7 +264,7 @@ body>section {
 }
 
 #portfolio .col-md-4 {
-	padding: 0;
+  padding: 0;
 }
 
 .recent-work-wrap {
@@ -321,5 +322,91 @@ body>section {
 }
 
 .recent-work-wrap:hover .overlay {
-	opacity: 0.9;
+  opacity: 0.9;
+}
+
+/* Testimonials */
+
+
+#testimonials {
+  background: #000 url(../images/bg_testimonials.jpg);
+  background-size: cover;
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+}
+
+.testimonials blockquote {
+  position: relative;
+  background: white;
+  min-height: 120px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  border: 1px solid #ecedf1;
+  text-align: center;
+}
+
+.testimonials blockquote img {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  border: 1px solid #ecedf1;
+  background: white;
+  bottom: -90px;
+  left: 50%;
+  margin-left: -34px;
+}
+
+blockquote p.clients-words {
+  font-size: 14px;
+}
+
+.testimonials .clients-name {
+  color: #3498db;
+}
+
+span.clients-name {
+  font-size: 14px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* Middle */
+#middle h3 {
+  color: #4e4e4e;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#middle i {
+  color: #52a7e0;
+}
+
+.media>.pull-left {
+  margin-right: 20px;
+}
+
+.panel {
+  border-radius: 8px;
+}
+
+.card-header {
+  border-radius: 8px;
+}
+
+
+.card-header {
+  background-color: #52a7e0;
+  border: 0 none;
+  box-shadow: none;
+}
+
+
+
+.panel>.card-header+.collapse .card-body {
+  background: #fff;
+  color: #4e4e4e;
 }
