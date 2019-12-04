@@ -1,13 +1,15 @@
 # [FINAL] Sitio + Landing Page en BS4 Personalizado
 
-Carrera: Analista de Sistemas
-Materia: Programación Web I
+Carrera: Analista de Sistemas.
 
+Materia: Programación Web I.
 
+en proceso
+<http://bit.ly/2RkoAxJ>
 
 ## OBJETIVOS
 
-Que el alumnx aplique las buenas prácticas vistas en clase y el correcto uso de la librería Bootstrap -herramienta de la práctica profesional https://getbootstrap.com/ - como plantilla para maquetar las versiones móvil-tablet-escritorio de un Sitio Web informativo y una Landing Page promocional.
+Que el alumnx aplique las buenas prácticas vistas en clase y el correcto uso de la librería Bootstrap -herramienta de la práctica profesional <https://getbootstrap.com/> - como plantilla para maquetar las versiones móvil-tablet-escritorio de un Sitio Web informativo y una Landing Page promocional.
 
 La temática es libre, se sugiere articular con la consigna de final para la materia de composición digital donde proponen la diagramación de un sitio web responsivo, pero tanto el sitio como la landing tienen que tener un hilo conductor
 
