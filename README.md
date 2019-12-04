@@ -58,30 +58,30 @@ usar la clase .active en el list item correspondiente, ayuda a indicarle al usua
 
 Sobre el desarrollo de la **Landing Page:**
 
-**Áreas de la Landing Page:**
-* Titular
-* Imagen de Producto o Servicio
-* Call To Action (dependiendo la temática puede ser un simple botón o un formulario).
-* Beneficios
-* Testimonios
-* Rescate (pie de página, generalmente el enlace a las redes sociales).
+- **Áreas de la Landing Page:**
+  * Titular
+  * Imagen de Producto o Servicio
+  * Call To Action (dependiendo la temática puede ser un simple botón o un formulario).
+  * Beneficios
+  * Testimonios
+  * Rescate (pie de página, generalmente el enlace a las redes sociales).
 
-**Navegación de la Landing Page:**
-todas las áreas/secciones se resuelven en el mismo documento index.html, el componente de barra de navegación puede llegar a ser opcional (depende de la temática)
+- **Navegación de la Landing Page:**
+  * todas las áreas/secciones se resuelven en el mismo documento index.html, el componente de barra de navegación puede llegar a ser opcional (depende de la temática).
 
-**Uso de la Librería Boostrap (Sitio y Landing):**
+- **Uso de la Librería Boostrap (Sitio y Landing):**
 
-las hojas de estilo y javascript tienen que quedar vinculados por CDN (recurso remoto)
+  * las hojas de estilo y javascript tienen que quedar vinculados por CDN (recurso remoto).
 
-**Personalizar la plantilla (Sitio y Landing):**
+- **Personalizar la plantilla (Sitio y Landing):**
 
-Incluir un Theme (pueden usarse los recursos online vistos en clase) y/o css adicional para personalizar cada sitio (un único “css de autor” por proyecto)
+  * Incluir un Theme (pueden usarse los recursos online vistos en clase) y/o css adicional para personalizar cada sitio (un único “css de autor” por proyecto)
 
-incorporar efectos dinámicos mediante la instalación de plugins (por ej: fancybox para la interacción de una galería de fotos)
+  * incorporar efectos dinámicos mediante la instalación de plugins (por ej: fancybox para la interacción de una galería de fotos)
 
 
 ### CRITERIOS DE EVALUACIÓN
 
-Recursos Gráficos optimizados para el contexto de adaptación, por ejemplo: si se implementa la etiqueta <picture>, considerar el set de imágenes necesario para los distintos contextos (movil y tablet con sus variantes para retina y escritorio)
+- Recursos Gráficos optimizados para el contexto de adaptación, por ejemplo: si se implementa la etiqueta <picture>, considerar el set de imágenes necesario para los distintos contextos (movil y tablet con sus variantes para retina y escritorio)
 
-Uso (con criterio) de los nombres de clase y componentes interactivos que ofrece bootstrap, extendiendo los ejemplos de cursada (tienen los catálogos interactivos y atajos por extensión para alivianar la consulta a la documentación)
+- Uso (con criterio) de los nombres de clase y componentes interactivos que ofrece bootstrap, extendiendo los ejemplos de cursada (tienen los catálogos interactivos y atajos por extensión para alivianar la consulta a la documentación)
