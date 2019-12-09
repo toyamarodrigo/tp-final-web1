@@ -7,7 +7,7 @@ body {
   line-height: 22px;
 }
 
-body > section {
+body>section {
   padding: 70px 0;
 }
 
@@ -210,7 +210,6 @@ h1 {
 /* FEATURE */
 
 
-
 .color-border {
   background: url(../images/color_border.jpg) repeat-x scroll center top;
   width: 100%;
@@ -338,6 +337,14 @@ h1 {
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
+}
+
+#testimonials h2 {
+  color: white;
+}
+
+#testimonials .lead {
+  color: white;
 }
 
 .testimonials blockquote {
@@ -509,4 +516,50 @@ a.social-icon:focus {
 
 .about-us p {
   color: #4e4e4e;
+}
+
+/* Services Section */
+
+.features {
+  padding: 0;
+}
+
+/* Portfolio Section */
+
+.portfolio-filter {
+  list-style: none outside none;
+  margin: 0 0 40px 0;
+  padding: 0;
+}
+
+.portfolio-filter>li a {
+  background: none repeat scroll 0 0 #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 20px;
+  text-transform: uppercase;
+  transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+  border: 1px solid #F2F2F2;
+  outline: none;
+  border-radius: 3px;
+}
+
+#inner-page .col-md-4 {
+  padding: 0;
+}
+
+
+/* Pricing Section */
+
+
+
+/* Contact Section */
+
+.contact-top {
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 2em;
 }
