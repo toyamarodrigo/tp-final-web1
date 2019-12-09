@@ -405,8 +405,76 @@ span.clients-name {
 }
 
 
-
 .panel>.card-header+.collapse .card-body {
   background: #fff;
   color: #4e4e4e;
+}
+
+
+/* Partner */
+
+#partner {
+  background: url(../images/partner_bg.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.partners ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.partners ul li {
+  display: inline-block;
+}
+
+/* Get Started */
+
+#get-started {
+  padding: 50px 0 60px 0;
+  text-align: center;
+  background: #f2f2f2;
+}
+
+/* Footer */
+
+#footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: #aaa;
+  background: #2e2e2e;
+}
+
+#footer a {
+  color: #eee;
+}
+
+#footer a:hover {
+  color: #3276b1;
+}
+
+a.social-icon:hover,
+a.social-icon:active,
+a.social-icon:focus {
+  text-decoration: none;
+  color: #3276b1;
+  border-color: #3276b1;
+}
+
+.follow-us {
+  margin-top: -5px;
+  text-align: center;
+}
+
+.social-icon {
+  padding-top: 6px;
+  font-size: 16px;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #999;
+  border-radius: 50%;
+  color: #999;
+  margin: 5px;
 }

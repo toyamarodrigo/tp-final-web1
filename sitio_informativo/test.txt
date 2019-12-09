@@ -1,0 +1,46 @@
+landing
+  |-icons
+  |  |-*.ico
+  |
+  |-images
+  |  |-*.jpg *.png *.svg
+  |
+  |-css
+  |  |-css-autor1
+  |  |-bootstrap
+  |
+  |-js
+  |  |-popper
+  |  |-bootstrap
+  |  |-jquery
+  |
+  |-index.html
+
+web
+  |-icons
+  |  |-*.ico
+  |
+  |-images
+  |  |-*.jpg *.png *.svg
+  |
+  |-css
+  |  |-css-autor2
+  |  |-bootstrap
+  |
+  |-js
+  |  |-popper
+  |  |-bootstrap
+  |  |-jquery
+  |
+  |-index.html
+  |-about.html
+  |-services.html
+  |-portfolio.html
+  |-contact.html
+
+editables
+  |-*.ai
+  |-*.psd
+  |-*.jpg
+
+info.txt
