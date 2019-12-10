@@ -164,9 +164,6 @@ h1 {
   width: 100%;
   display: block !important;
   height: 640px;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
   z-index: -1;
 }
 
@@ -185,12 +182,7 @@ h1 {
 /* Parallax */
 
 .imagen1, .imagen2, .imagen3 {
-  position: relative;
-  opacity: 1;
-  background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 

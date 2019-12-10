@@ -470,6 +470,15 @@ span.clients-name {
   background: #f2f2f2;
 }
 
+#get-started .btn {
+  transition: 0.5s;
+}
+
+#get-started .btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -1px, 0px);
+}
+
 /* Footer */
 
 #footer {
@@ -550,6 +559,12 @@ a.social-icon:focus {
   box-shadow: 0 20px 50px rgba(0, 0, 0, .1);
   border-radius: 10px;
   transition: 0.5s;
+}
+
+/* Elevar arriba */
+.carta:hover {
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -1px, 0px);
 }
 
 .carta .box {
