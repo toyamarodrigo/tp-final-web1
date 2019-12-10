@@ -4,8 +4,6 @@ Carrera: Analista de Sistemas.
 
 Materia: Programación Web I.
 
-en proceso
-<http://bit.ly/2RkoAxJ>
 
 ## OBJETIVOS
 
