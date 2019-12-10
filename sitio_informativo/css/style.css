@@ -400,6 +400,10 @@ span.clients-name {
   color: #52a7e0;
 }
 
+.media {
+  margin-top: 20px;
+}
+
 .media>.pull-left {
   margin-right: 20px;
 }
@@ -413,6 +417,7 @@ span.clients-name {
   background-color: #52a7e0;
   border: 0 none;
   box-shadow: none;
+  padding: 4px;
 }
 
 
@@ -502,7 +507,7 @@ a.social-icon:focus {
 #inner-page {
   background: #f8f8f8 url("../images/innerpage_bg.png") repeat-x;
   padding-bottom: 0;
-  padding: 70px 0;
+  padding: 40px 0;
 }
 
 .about-us {

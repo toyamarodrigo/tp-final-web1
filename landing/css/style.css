@@ -385,6 +385,10 @@ span.clients-name {
   color: #52a7e0;
 }
 
+.media {
+  margin-top: 20px;
+}
+
 .media>.pull-left {
   margin-right: 20px;
 }
@@ -395,13 +399,10 @@ span.clients-name {
 
 .card-header {
   border-radius: 8px;
-}
-
-
-.card-header {
   background-color: #52a7e0;
   border: 0 none;
   box-shadow: none;
+  padding: 4px!important;
 }
 
 
