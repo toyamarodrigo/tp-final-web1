@@ -256,9 +256,14 @@ h1 {
   text-align: center;
   background: #ffffff;
   color: #3498db;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
 
 .feature-wrap h2 {
+  margin-top: 20px;
+}
+
+.feature-wrap h3 {
   margin-top: 10px;
 }
 
@@ -337,7 +342,12 @@ h1 {
 
 #testimonials {
   background: #000 url(../images/bg_testimonials.jpg);
+  position: relative;
+  opacity: 1;
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 blockquote {
@@ -417,7 +427,7 @@ span.clients-name {
   background-color: #52a7e0;
   border: 0 none;
   box-shadow: none;
-  padding: 4px;
+  padding: 10px;
 }
 
 
@@ -512,6 +522,7 @@ a.social-icon:focus {
 
 .about-us {
   padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .about-us img {
@@ -527,6 +538,10 @@ a.social-icon:focus {
 
 .about-us p {
   color: #4e4e4e;
+}
+
+.our-team {
+  background: #f8f8f811;
 }
 
 .carta {

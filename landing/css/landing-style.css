@@ -182,6 +182,17 @@ h1 {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(255, 255, 255, 0.75) 50%), url("../images/landing3.jpg");
 }
 
+/* Parallax */
+
+.imagen1, .imagen2, .imagen3 {
+  position: relative;
+  opacity: 1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 
 #main-slider .item.active {
   opacity: 1;
@@ -249,9 +260,14 @@ body>section {
   text-align: center;
   background: #ffffff;
   color: #3498db;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
 
 .feature-wrap h2 {
+  margin-top: 20px;
+}
+
+.feature-wrap h3 {
   margin-top: 10px;
 }
 
@@ -330,7 +346,12 @@ body>section {
 
 #testimonials {
   background: #000 url(../images/bg_testimonials.jpg);
+  position: relative;
+  opacity: 1;
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 blockquote {
@@ -416,7 +437,12 @@ span.clients-name {
 
 #partner {
   background: url(../images/partner_bg.jpg) 50% 50% no-repeat;
+  position: relative;
+  opacity: 1;
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
 }
 
