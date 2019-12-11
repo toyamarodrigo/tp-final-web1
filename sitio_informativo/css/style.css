@@ -447,7 +447,12 @@ span.clients-name {
 
 #partner {
   background: url(../images/partner_bg.jpg) 50% 50% no-repeat;
+  position: relative;
+  opacity: 1;
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
 }
 

@@ -154,14 +154,11 @@ a:focus {
 .fondo2 .btn-primary {
   font-size: 12px;
   letter-spacing: .1em;
-  margin: 1.25em 0;
 }
-
 
 .our-work {
-  padding: 60px 0;
+  padding: 8rem 0;
 }
-
 
 .recent-work-wrap {
   position: relative;
@@ -241,7 +238,6 @@ a:focus {
 .fondo3 .btn-primary {
   font-size: 12px;
   letter-spacing: .1em;
-  margin: 1.25em 0;
 }
 
 #footer {
