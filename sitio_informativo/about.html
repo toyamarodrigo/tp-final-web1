@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <!-- Bootstrap 4 CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-
-  <!-- FontAwesome 4 CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <!-- My Styles -->
-  <link rel="stylesheet" href="css/style.css">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-
-  <title>TP Final Web & Visual</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" href="plugins/jquery.fancybox.min.css">
+  
+    <!-- FontAwesome 4 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="plugins/animate.css">
+  
+    <!-- My Styles -->
+    <link rel="stylesheet" href="css/style.css">
+  
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  
+    <title>TP Final Web & Visual</title>
+  </head>
 
 <body data-spy="scroll" data-target="#navbarResponsive">
 
@@ -35,7 +41,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="../landing/index.html" class="nav-link">Home</a>
+            <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item active">
             <a href="about.html" class="nav-link">About us</a>
@@ -107,7 +113,7 @@
           <div class="card carta">
             <div class="box">
               <div class="img">
-                <img src="images/avatar.svg">
+                <img src="images/team1.jpg">
               </div>
               <h2>Rodrigo Toyama</h2>
               <h2><span>CEO</span></h2>
@@ -130,7 +136,7 @@
           <div class="card carta">
             <div class="box">
               <div class="img">
-                <img src="images/avatar.svg">
+                <img src="images/team2.jpg">
               </div>
               <h2>Rodrigo Toyama</h2>
               <h2><span>CEO</span></h2>
@@ -153,7 +159,7 @@
           <div class="card carta">
             <div class="box">
               <div class="img">
-                <img src="images/avatar.svg">
+                <img src="images/team3.jpg">
               </div>
               <h2>Rodrigo Toyama</h2>
               <h2><span>CEO</span></h2>
@@ -176,7 +182,7 @@
           <div class="card carta">
             <div class="box">
               <div class="img">
-                <img src="images/avatar.svg">
+                <img src="images/team4.jpg">
               </div>
               <h2>Rodrigo Toyama</h2>
               <h2><span>CEO</span></h2>
@@ -331,21 +337,21 @@
               <blockquote>
                 <p class="clients-words">Morbi eget enim nisi. In venenatis porta est ut molestie nulla facilisi.</p>
                 <span class="clients-name">- John Doe, Company</span> <img class="rounded-circle img-thumbnail"
-                  src="images/man1.jpg">
+                  src="images/client1.jpg">
               </blockquote>
             </div>
             <div class="col-sm-4">
               <blockquote>
                 <p class="clients-words">Morbi eget enim nisi. In venenatis porta est ut molestie nulla facilisi.</p>
                 <span class="clients-name">- John Doe, Company</span> <img class="rounded-circle img-thumbnail"
-                  src="images/woman1.jpg">
+                  src="images/client2.jpg">
               </blockquote>
             </div>
             <div class="col-sm-4">
               <blockquote>
                 <p class="clients-words">Morbi eget enim nisi. In venenatis porta est ut molestie nulla facilisi.</p>
                 <span class="clients-name">- John Doe, Company</span> <img class="rounded-circle img-thumbnail"
-                  src="images/man1.jpg">
+                  src="images/client3.jpg">
               </blockquote>
             </div>
           </div>
@@ -387,10 +393,18 @@
     </div>
   </section>
 
+  <!-- JQuery 3.4.1 js -->
   <script src="js/jquery-3.4.1.slim.min.js"></script>
+  <!-- Popper js -->
   <script src="js/popper.min.js"></script>
+  <!-- Bootstrap 4 js -->
   <script src="js/bootstrap.min.js"></script>
-  </script>
+  <!-- Fancybox js -->
+  <script src="plugins/jquery.fancybox.min.js"></script>
+  <!-- Wow js -->
+  <script src="js/wow.min.js"></script>
+  <!-- Wow js init-->
+  <script> new WOW().init(); </script>
 
 </body>
 

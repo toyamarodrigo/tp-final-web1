@@ -613,8 +613,8 @@ a.social-icon:focus {
 }
 
 .carta .box .img {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   margin: 0 auto;
   border-radius: 50%;
   overflow: hidden;
@@ -666,4 +666,19 @@ a.social-icon:focus {
   margin-right: 0;
   margin-left: 0;
   margin-bottom: 2em;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
