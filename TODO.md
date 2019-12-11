@@ -10,6 +10,7 @@
   * [x] Agrear data-fancybox a los <a> con imagenes grandes
   
   * [x] Crear el Landing Page
+  * [ ] Seccion Beneficios, Testimonios
   * [ ] Detalles
 
   
