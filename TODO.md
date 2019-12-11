@@ -9,9 +9,9 @@
   * [x] Buscar imagenes para fondo, clientes, portfolio, trabajos recientes (chicas y grandes)
   * [x] Agrear data-fancybox a los <a> con imagenes grandes
   
-  * [ ] Crear el Landing Page
+  * [x] Crear el Landing Page
+  * [ ] Detalles
 
-  * [ ] Hacer las cartas de precios animadas  
   
   * [ ] Animacion a las imagenes con fancybox.css
   * [ ] Poner animaciones.css

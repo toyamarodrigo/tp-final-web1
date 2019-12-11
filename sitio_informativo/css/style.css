@@ -177,7 +177,6 @@ h1 {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  z-index: -1;
 }
 
 .imagen1 {
@@ -230,7 +229,7 @@ h1 {
 }
 
 .center {
-  padding-bottom: 55px;
+  padding-bottom: 65px;
   text-align: center;
 }
 
@@ -655,11 +654,6 @@ a.social-icon:focus {
   padding: 0;
 }
 
-
-/* Pricing Section */
-
-
-
 /* Contact Section */
 
 .contact-top {
@@ -681,4 +675,8 @@ a.social-icon:focus {
   left: 0;
   width: 100% !important;
   height: 100% !important;
+}
+
+.contactos .fa-2x {
+  font-size: 3em;
 }
