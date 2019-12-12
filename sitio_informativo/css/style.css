@@ -240,8 +240,12 @@ h1 {
   padding-bottom: 40px;
 }
 
-.center {
+#feature .center{
   padding-bottom: 65px;
+}
+
+.center {
+  padding-bottom: 90px;
   text-align: center;
 }
 
@@ -342,6 +346,7 @@ h1 {
   background: transparent;
   text-align: center;
   color: #fff;
+  margin-top: 70px;
 }
 
 .recent-work-wrap:hover .overlay {
@@ -377,7 +382,7 @@ blockquote {
 .testimonials blockquote {
   position: relative;
   background: white;
-  min-height: 120px;
+  min-height: 140px;
   margin-top: 20px;
   margin-bottom: 100px;
   border: 1px solid #ecedf1;
@@ -468,6 +473,10 @@ span.clients-name {
   text-align: center;
 }
 
+#partner .center {
+  padding-bottom: 65px;
+}
+
 .partners ul {
   list-style: none;
   margin: 0;
@@ -488,11 +497,17 @@ span.clients-name {
 
 #get-started .btn {
   transition: 0.5s;
+  font-size: 20px;
+  margin: 0 10px;
 }
 
 #get-started .btn:hover {
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
   transform: translate3d(0px, -1px, 0px);
+}
+
+#get-started h2 {
+  font-size: 32px;
 }
 
 /* Footer */

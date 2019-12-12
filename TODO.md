@@ -8,11 +8,11 @@
   * [x] Agregar Mapa en Contacto.
   * [x] Buscar imagenes para fondo, clientes, portfolio, trabajos recientes (chicas y grandes).
   * [x] Agrear data-fancybox a los <a> con imagenes grandes.
-  * [ ] Crear Logo.
+  * [x] Crear Logo.
   * [ ] Buscar imagenes de partners. 
   
   * [x] Crear el Landing Page
-  * [ ] Seccion Beneficios, Testimonios
+  * [x] Seccion Beneficios, Testimonios
   * [ ] Detalles
 
   
