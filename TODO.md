@@ -21,3 +21,4 @@
   * [ ] Animaciones WOW js
 
   * [ ] Poner textos/contenidos reales
+  * [ ] Cambiar Colores

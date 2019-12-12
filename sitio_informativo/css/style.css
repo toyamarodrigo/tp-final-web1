@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:600&display=swap');
 
 * {
   margin: 0;
@@ -71,6 +72,9 @@ a:focus {
 .navbar-brand {
   padding: 0;
   margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+  letter-spacing: 3px;
 }
 
 .navbar {
@@ -158,9 +162,17 @@ h1 {
   letter-spacing: -2px;
 }
 
+.carousel .welcome h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  color: #000;
+  letter-spacing: 3px;
+}
+
 #main-slider .imagen h2 {
-  color: #666;
+  color: rgb(63, 63, 63);
   font-weight: 500;
+  font-size: 24px;
   margin: 20px 0;
 }
 

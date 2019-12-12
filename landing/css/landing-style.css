@@ -51,6 +51,13 @@ a:focus {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.landing1 .marca {
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+}
+
 .imagen {
   position: relative;
   opacity: 1;
@@ -110,7 +117,7 @@ a:focus {
 
 .fondo2 {
   padding: 8rem 0;
-  background-color: #d3d3d3;
+  background-color: rgb(247, 247, 247);
 }
 
 .feature-wrap {
@@ -154,6 +161,7 @@ a:focus {
 .fondo2 .btn-primary {
   font-size: 12px;
   letter-spacing: .1em;
+  margin-top: 20px;
 }
 
 .our-work {
@@ -212,6 +220,7 @@ a:focus {
   background: transparent;
   text-align: center;
   color: #fff;
+  margin-top: 60px;
 }
 
 .recent-work-wrap:hover .overlay {
@@ -226,13 +235,18 @@ a:focus {
 
 .fondo3 {
   padding: 8rem 0;
-  background-color: #16405c;
+  background-color: #fff;
 }
 
 .fondo3 p {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  color: #eee;
+  color: #000;
+  line-height: 1.5em;
+}
+
+.fondo3 h2 {
+  font-family: 'Raleway', sans-serif;
 }
 
 .fondo3 .btn-primary {
@@ -278,4 +292,84 @@ a.social-icon:focus {
   border-radius: 50%;
   color: #999;
   margin: 5px;
+}
+
+/* Testimonials */
+
+.center {
+  padding-bottom: 65px;
+  text-align: center;
+}
+
+.center h2 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.lead {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+
+#testimonials {
+  background: #000 url(../images/bg_testimonials.jpg);
+  position: relative;
+  opacity: 1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 70px 0;
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+}
+
+#testimonials h2 {
+  color: white;
+}
+
+#testimonials .lead {
+  color: white;
+}
+
+.testimonials blockquote {
+  position: relative;
+  background: white;
+  min-height: 120px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  border: 1px solid #ecedf1;
+  text-align: center;
+}
+
+.testimonials blockquote img {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  border: 1px solid #ecedf1;
+  background: white;
+  bottom: -90px;
+  left: 50%;
+  margin-left: -34px;
+}
+
+blockquote p.clients-words {
+  font-size: 14px;
+}
+
+.testimonials .clients-name {
+  color: #3498db;
+}
+
+span.clients-name {
+  font-size: 14px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
