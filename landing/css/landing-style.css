@@ -55,7 +55,7 @@ a:focus {
   border-radius: 5px;
   background-color: #000;
   color: #fff;
-  padding: 5px 10px;
+  padding: 5px 15px;
 }
 
 .imagen {
@@ -67,25 +67,31 @@ a:focus {
   background-attachment: fixed;
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.30) 0%, rgba(255, 255, 255, 0.90) 100%), url("../images/landing1.jpg");
+  background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.30) 100%, rgba(255, 255, 255, 0.90) 100%), url("../images/landing1.jpg");
 }
 
 .landing1 .welcome h2 {
   font-family: 'Raleway', sans-serif;
   font-size: 24px;
-  color: #000;
+  color: #fff;
   letter-spacing: 3px;
+}
+
+.landing1 .titulo h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 52px;
+  color: #fff;
 }
 
 .landing1 .welcome {
   position: absolute;
-  top: 55%;
+  top: 65%;
   left: 5%;
 }
 
 .titulo {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 5%;
 }
 
@@ -341,7 +347,7 @@ blockquote {
 .testimonials blockquote {
   position: relative;
   background: white;
-  min-height: 120px;
+  min-height: 140px;
   margin-top: 20px;
   margin-bottom: 100px;
   border: 1px solid #ecedf1;
