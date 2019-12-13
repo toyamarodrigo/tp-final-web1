@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway:600&display=swap');
 
+/* Globales */
+
 body {
   background: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -23,14 +25,6 @@ h2 {
   font-family: 'Raleway', sans-serif;
 }
 
-.navbar {
-  padding: 16px;
-}
-
-.navbar p {
-  margin: 0;
-}
-
 a {
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
@@ -43,21 +37,6 @@ a:focus {
   color: #d43133;
 }
 
-.nav li {
-  padding: 0 10px;
-}
-
-.navbar {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.landing1 .marca {
-  border-radius: 5px;
-  background-color: #000;
-  color: #fff;
-  padding: 5px 15px;
-}
-
 .imagen {
   position: relative;
   opacity: 1;
@@ -68,6 +47,15 @@ a:focus {
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.30) 100%, rgba(255, 255, 255, 0.90) 100%), url("../images/landing1.jpg");
+}
+
+/* Landing1 - Inicio */
+
+.landing1 .marca {
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 15px;
 }
 
 .landing1 .welcome h2 {
@@ -89,24 +77,26 @@ a:focus {
   left: 5%;
 }
 
-.titulo {
+.landing1 .titulo {
   position: absolute;
   top: 70%;
   left: 5%;
 }
 
-.btn-slide {
+.landing1 .btn-slide {
   padding: 8px 30px;
-  background: #3498db;
+  background: #2979ff;
   color: #fff;
   border-radius: 4px;
   margin-top: 25px;
   display: inline-block;
 }
 
+/* Landing2 - About */
+
 .fondo {
   padding: 8rem 0;
-  background-color: #16405c;
+  background-color: #0277bd;
 }
 
 .fondo p {
@@ -119,7 +109,10 @@ a:focus {
   font-size: 12px;
   letter-spacing: .1em;
   margin: 1.25em 0;
+  background-color: #000;
 }
+
+/* Landing3 - Servicios */
 
 .fondo2 {
   padding: 8rem 0;
@@ -168,7 +161,10 @@ a:focus {
   font-size: 12px;
   letter-spacing: .1em;
   margin-top: 20px;
+  background-color: #2979ff;
 }
+
+/* Landing4 - Portfolio */
 
 .our-work {
   padding: 8rem 0;
@@ -237,7 +233,10 @@ a:focus {
   font-size: 12px;
   letter-spacing: .1em;
   margin: 1.25em 0;
+  background-color: #2979ff;
 }
+
+/* Landing4 - Contacto*/
 
 .fondo3 {
   padding: 8rem 0;
@@ -258,7 +257,70 @@ a:focus {
 .fondo3 .btn-primary {
   font-size: 12px;
   letter-spacing: .1em;
+  background-color: #2979ff;
 }
+
+#testimonials {
+  background: url(../images/bg_testimonials.jpg);
+  position: relative;
+  opacity: 1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 70px 0;
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+}
+
+#testimonials h2 {
+  color: white;
+}
+
+#testimonials .lead {
+  color: white;
+}
+
+.testimonials blockquote {
+  position: relative;
+  background: white;
+  min-height: 140px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  border: 1px solid #ecedf1;
+  text-align: center;
+}
+
+.testimonials blockquote img {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  border: 1px solid #ecedf1;
+  background: white;
+  bottom: -90px;
+  left: 50%;
+  margin-left: -34px;
+}
+
+blockquote p.clients-words {
+  font-size: 14px;
+}
+
+.testimonials .clients-name {
+  color: #3498db;
+}
+
+span.clients-name {
+  font-size: 14px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* Footer */
 
 #footer {
   padding-top: 60px;
@@ -320,62 +382,3 @@ a.social-icon:focus {
 }
 
 
-#testimonials {
-  background: #000 url(../images/bg_testimonials.jpg);
-  position: relative;
-  opacity: 1;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  padding: 70px 0;
-}
-
-blockquote {
-  padding: 10px 20px;
-  margin: 0 0 20px;
-}
-
-#testimonials h2 {
-  color: white;
-}
-
-#testimonials .lead {
-  color: white;
-}
-
-.testimonials blockquote {
-  position: relative;
-  background: white;
-  min-height: 140px;
-  margin-top: 20px;
-  margin-bottom: 100px;
-  border: 1px solid #ecedf1;
-  text-align: center;
-}
-
-.testimonials blockquote img {
-  height: 70px;
-  width: 70px;
-  position: absolute;
-  border: 1px solid #ecedf1;
-  background: white;
-  bottom: -90px;
-  left: 50%;
-  margin-left: -34px;
-}
-
-blockquote p.clients-words {
-  font-size: 14px;
-}
-
-.testimonials .clients-name {
-  color: #3498db;
-}
-
-span.clients-name {
-  font-size: 14px;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-}
