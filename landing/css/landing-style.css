@@ -64,6 +64,20 @@ a:focus {
   color: #fff;
   letter-spacing: 3px;
 }
+.landing1 .logo {
+  width: 140px;
+  height: 100%;
+}
+
+.landing1 .welcome .logo {
+  padding: 0px 10px;
+}
+
+.landing1 .welcome img {
+  border-radius: 10px;
+  background-color: #000;
+}
+
 
 .landing1 .titulo h1 {
   font-family: 'Raleway', sans-serif;
@@ -382,3 +396,114 @@ a.social-icon:focus {
 }
 
 
+/* Media queries */
+
+
+/*
+col <576pxs
+col-sm ≥576px
+col-md ≥768px
+col-lg ≥992px
+col-xl ≥1200px
+*/
+
+@media only screen and (max-width: 576px) {
+
+  .center {
+    padding-bottom: 40px;
+  }
+
+  .landing1 .welcome {
+    position: absolute;
+    top: 55%;
+    left: 0;
+  }
+
+  .landing1 .titulo {
+    top: 60%;
+    left: 0;
+  }
+
+  .fondo2 {
+    padding: 4rem 0;
+  }
+
+  .fondo2 .servicios {
+    padding-bottom: 40px;
+  }  
+
+  .our-work {
+    padding: 4rem 0;
+  }
+
+  .fondo3 {
+    padding: 4rem 0;
+  }
+
+  blockquote {
+    padding: 10px 20px;
+  }
+
+  blockquote p.clients-words {
+    font-size: 14px;
+  }
+
+  span.clients-name {
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .feature-wrap i {
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    line-height: 85px;
+  }
+
+  .feature-wrap h2 {
+    font-size: 14px;
+  }
+
+
+  blockquote {
+    padding: 5px 10px;
+  }
+
+  blockquote p.clients-words {
+    font-size: 12px;
+  }
+
+  span.clients-name {
+    font-size: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  .feature-wrap i {
+    font-size: 48px;
+    width: 118px;
+    height: 118px;
+    line-height: 118px;
+  }
+
+  .feature-wrap h2 {
+    font-size: 24px;
+  }
+
+  blockquote {
+    padding: 10px 20px;
+  }
+
+  blockquote p.clients-words {
+    font-size: 14px;
+  }
+
+  span.clients-name {
+    font-size: 14px;
+  }
+
+}
