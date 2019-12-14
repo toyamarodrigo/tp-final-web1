@@ -276,7 +276,7 @@ h1 {
   padding-bottom: 40px;
 }
 
-#feature .center{
+#feature .center {
   padding-bottom: 65px;
 }
 
@@ -750,4 +750,99 @@ a.social-icon:focus {
 
 .contactos .fa-2x {
   font-size: 3em;
+}
+
+
+
+
+/* Media Queries */
+
+/* Media queries */
+
+
+/*
+col <576pxs
+col-sm ≥576px
+col-md ≥768px
+col-lg ≥992px
+col-xl ≥1200px
+*/
+
+@media only screen and (max-width: 576px) {
+
+  /* Home */
+
+  body>section {
+    padding: 40px 0;
+  }
+
+  .center {
+    padding-bottom: 30px;
+  }
+
+  .navbar-brand .logo {
+    margin-left: 14px;
+  }
+
+  .navbar-dark .navbar-toggler {
+    margin-right: 14px;
+    margin-bottom: 14px;
+  }
+
+  .carousel .welcome h1 {
+    font-size: 30px;
+  }
+
+  .carousel .welcome .logo {
+    width: 200px;
+    margin-top: 10px;
+    padding: 0 15px;
+  }
+
+    .carousel .welcome span {
+    width: 200px;
+    margin-top: 10px;
+    padding: 5px 15px;
+    line-height: 2em;
+  }
+
+  #main-slider .imagen h2 {
+    font-size: 20px;
+  }
+
+  .card-header h4 {
+    font-size: 14px;
+  }
+
+  #partner .center {
+    padding-bottom: 30px;
+  }
+
+  /* About */
+
+  .about-us {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  #inner-page .col-sm-12 {
+    padding: 20px 30px;
+  }
+
+  .carta {
+    width: 250px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-nav>li {
+    margin-left: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-nav>li {
+    margin-left: 35px!important;
+  }
 }
