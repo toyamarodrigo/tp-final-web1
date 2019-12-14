@@ -407,7 +407,7 @@ col-lg ≥992px
 col-xl ≥1200px
 */
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 480px) {
 
   .center {
     padding-bottom: 40px;
@@ -419,10 +419,36 @@ col-xl ≥1200px
     left: 0;
   }
 
+  .landing1 .welcome h2 {
+    font-size: 14px;
+  }
+
   .landing1 .titulo {
+    margin-top: 15px;
     top: 60%;
     left: 0;
   }
+
+  .landing1 .titulo h1{
+    font-size: 24px;
+  }
+
+  .landing1 .welcome .logo {
+    padding: 0px 10px;
+    width: 100px;
+    height: 100%;
+  }
+  
+  .landing1 .welcome img {
+    border-radius: 10px;
+    background-color: #000;
+  }
+
+  .landing1 .btn-slide {
+    margin-top: 10px;
+  }
+
+
 
   .fondo2 {
     padding: 4rem 0;
@@ -483,6 +509,68 @@ col-xl ≥1200px
 }
 
 @media only screen and (min-width: 992px) {
+  .feature-wrap i {
+    font-size: 48px;
+    width: 118px;
+    height: 118px;
+    line-height: 118px;
+  }
+
+  .feature-wrap h2 {
+    font-size: 24px;
+  }
+
+  blockquote {
+    padding: 10px 20px;
+  }
+
+  blockquote p.clients-words {
+    font-size: 14px;
+  }
+
+  span.clients-name {
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .landing1 .welcome h2 {
+    font-size: 40px;
+  }
+  
+  .landing1 .welcome {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+  }
+
+  .landing1 .titulo {
+    margin-top: 15px;
+    top: 60%;
+    left: 5%;
+  }
+
+  .landing1 .titulo h1{
+    font-size: 60px;
+  }
+
+  .landing1 .welcome .logo {
+    padding: 0px 10px;
+    width: 180px;
+    height: 100%;
+  }
+  
+  .landing1 .welcome img {
+    border-radius: 10px;
+    background-color: #000;
+  }
+
+  .landing1 .btn-slide {
+    margin-top: 10px;
+  }
+
   .feature-wrap i {
     font-size: 48px;
     width: 118px;
