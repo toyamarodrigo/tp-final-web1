@@ -67,7 +67,7 @@ a:hover,
 a:focus {
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
   transform: translate3d(0px, -1px, 0px);
-  color: #FFFFFF;
+  color: #000;
 }
 
 /* Nav Bar */
@@ -721,10 +721,6 @@ a.social-icon:focus {
   border-radius: 3px;
 }
 
-#inner-page .col-md-4 {
-  padding: 0;
-}
-
 /* Contact Section */
 
 .contact-top {
@@ -799,7 +795,7 @@ col-xl ≥1200px
     padding: 0 15px;
   }
 
-    .carousel .welcome span {
+  .carousel .welcome span {
     width: 200px;
     margin-top: 10px;
     padding: 5px 15px;
@@ -820,6 +816,10 @@ col-xl ≥1200px
 
   /* About */
 
+  .sobre-nosotros .center {
+    padding-bottom: 20px;
+  }
+
   .about-us {
     padding-top: 30px;
     padding-bottom: 20px;
@@ -829,20 +829,170 @@ col-xl ≥1200px
     padding: 20px 30px;
   }
 
-  .carta {
-    width: 250px;
+  blockquote {
+    padding: 10px 20px;
+  }
+
+  blockquote p.clients-words {
+    font-size: 14px;
+  }
+
+  span.clients-name {
+    font-size: 14px;
+  }
+
+  /* Services */
+
+  .servicios .center {
+    padding-bottom: 90px;
+  }
+
+  /* Portfolio */
+
+  .portfolio .center {
+    padding-bottom: 20px;
+  }
+
+  .portfolio p {
+    margin-bottom: 0;
+  }
+
+  #inner-page {
+    padding: 20px 0;
+  }
+
+  #inner-page .portfolio-filter>li a {
+    margin-right: 8px;
+  }
+
+  .portfolio .fotos {
+    padding-top: 30px;
+  }
+
+  /* Contacto */
+
+  .contacto .center {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .contact-top {
+    margin-top: 30px;
+  }
+
+  .google-maps {
+    padding-bottom: 60%;
   }
 
 }
 
 @media only screen and (min-width: 768px) {
+
+  .center {
+    padding-bottom: 50px;
+  }
+
   .navbar-nav>li {
     margin-left: 0 !important;
   }
+
+  /* Home */
+
+  .recent-work-wrap .overlay .preview {
+    margin-top: 35px;
+  }
+
+  /* About */
+
+  .sobre-nosotros .center {
+    padding-bottom: 90px;
+  }
+
+  .about-us {
+    padding-bottom: 30px;
+  }
+
+  .card-header h4 {
+    font-size: 14px;
+  }
+
+  #testimonials .center {
+    padding-bottom: 30px;
+  }
+
+  .testimonials blockquote {
+    min-height: 175px;
+  }
+
+  blockquote {
+    padding: 5px 10px;
+  }
+
+  blockquote p.clients-words {
+    font-size: 12px;
+  }
+
+  span.clients-name {
+    font-size: 10px;
+  }
+
+  /* Services */
+
+  .servicios .center {
+    padding-bottom: 90px;
+  }
+
+  /* Portfolio */
+
+  .portfolio .center {
+    padding-bottom: 10px;
+  }
+
+  .portfolio .recent-work-wrap .overlay .preview {
+    margin-top: 20px;
+  }
+
+
+  /* Contacto */
+
+  .contact-top {
+    margin-top: 60px;
+  }
+
+
 }
 
 @media only screen and (min-width: 992px) {
   .navbar-nav>li {
-    margin-left: 35px!important;
+    margin-left: 35px !important;
   }
+
+  /* Home */
+
+  .recent-work-wrap .overlay .preview {
+    margin-top: 70px;
+  }
+
+  blockquote {
+    padding: 10px 20px;
+  }
+
+  blockquote p.clients-words {
+    font-size: 14px;
+  }
+
+  span.clients-name {
+    font-size: 14px;
+  }
+
+  .sobre-nosotros .center {
+    padding-bottom: 90px;
+  }
+
+  /* Portfolio */
+
+  .portfolio .recent-work-wrap .overlay .preview {
+    margin-top: 70px;
+  }
+
 }
