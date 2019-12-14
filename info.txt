@@ -1,0 +1,18 @@
+Rodrigo Toyama
+Analista de Sistemas - Turno Tarde (ACT1)
+
+Navegador: Google Chrome Versión 78.0.3904.108 (Build oficial) (64 bits)
+
+Cantidad de horas: ~24
+
+Descripcion de Página Web:
+VANGU. empresa que brinda soluciones en tecnología SAP (Sistema Aplicaciones y Productos) o nombrado tambien ERP(Planeación de Recursos Empresariales), promoviendo la innovación y logrando resultados rentables a nuestros clientesa tecnologías SAP (Sistema A
+
+Landing aparece como primer CTA (Call to Action) un Botón para ver mas sobre la empresa
+luego un mini listado de servicios y introduccion a SAP donde podes ver todos los servicios y proyectos recientes
+ya llegando al Footer tenemos testimonios de gente que recomienda el servicio y por ultimo CTA a contactarnos
+
+los CTA de proyectos, contacto, y servicio nos llevan al sitio principal.
+
+En el sitio principal tenemos Home donde tiene todo lo de las otras secciones resumido. y luego cada seccion About, Services, Portfolio(trabajos) y Contact.
+en todas las secciones, parte del footer, nos lleva a la seccion contacto.

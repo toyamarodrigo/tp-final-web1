@@ -9,16 +9,15 @@
   * [x] Buscar imagenes para fondo, clientes, portfolio, trabajos recientes (chicas y grandes).
   * [x] Agrear data-fancybox a los <a> con imagenes grandes.
   * [x] Crear Logo.
-  * [ ] Buscar imagenes de partners. 
   
   * [x] Crear el Landing Page
   * [x] Seccion Beneficios, Testimonios
-  * [ ] Detalles
+  * [x] Detalles
 
   
   * [ ] Animacion a las imagenes con fancybox.css
   * [ ] Poner animaciones.css
   * [ ] Animaciones WOW js
 
-  * [ ] Poner textos/contenidos reales
-  * [ ] Cambiar Colores
+  * [x] Poner textos/contenidos reales
+  * [x] Cambiar Colores
