@@ -15,9 +15,9 @@
   * [x] Detalles
 
   
-  * [ ] Animacion a las imagenes con fancybox.css
-  * [ ] Poner animaciones.css
-  * [ ] Animaciones WOW js
+  * [x] Animacion a las imagenes con fancybox.css
+  * [x] Poner animaciones.css
+  * [x] Animaciones WOW js
 
   * [x] Poner textos/contenidos reales
   * [x] Cambiar Colores
